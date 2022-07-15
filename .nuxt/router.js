@@ -4,12 +4,12 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _ffb1d130 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _8d486bba = () => interopDefault(import('..\\pages\\accordion.vue' /* webpackChunkName: "pages/accordion" */))
-const _6170528a = () => interopDefault(import('..\\pages\\grid.vue' /* webpackChunkName: "pages/grid" */))
-const _45b93ca6 = () => interopDefault(import('..\\pages\\images.vue' /* webpackChunkName: "pages/images" */))
-const _32d41a78 = () => interopDefault(import('..\\pages\\reader.vue' /* webpackChunkName: "pages/reader" */))
-const _c0421ba6 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _4a295144 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
+const _3c949402 = () => interopDefault(import('..\\pages\\accordion.vue' /* webpackChunkName: "pages/accordion" */))
+const _4968f15f = () => interopDefault(import('..\\pages\\grid.vue' /* webpackChunkName: "pages/grid" */))
+const _53686351 = () => interopDefault(import('..\\pages\\images.vue' /* webpackChunkName: "pages/images" */))
+const _adcdc7c8 = () => interopDefault(import('..\\pages\\reader.vue' /* webpackChunkName: "pages/reader" */))
+const _69e12c09 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -24,27 +24,27 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _ffb1d130,
+    component: _4a295144,
     name: "about"
   }, {
     path: "/accordion",
-    component: _8d486bba,
+    component: _3c949402,
     name: "accordion"
   }, {
     path: "/grid",
-    component: _6170528a,
+    component: _4968f15f,
     name: "grid"
   }, {
     path: "/images",
-    component: _45b93ca6,
+    component: _53686351,
     name: "images"
   }, {
     path: "/reader",
-    component: _32d41a78,
+    component: _adcdc7c8,
     name: "reader"
   }, {
     path: "/",
-    component: _c0421ba6,
+    component: _69e12c09,
     name: "index"
   }],
 

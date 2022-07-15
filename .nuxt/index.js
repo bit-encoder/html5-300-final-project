@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_d6166d2c from 'nuxt_plugin_plugin_d6166d2c' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_794d8dbc from 'nuxt_plugin_bootstrapvue_794d8dbc' // Source: .\\bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_axios_0b60e6e6 from 'nuxt_plugin_axios_0b60e6e6' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_47b4c79a from 'nuxt_plugin_plugin_47b4c79a' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_fab7b828 from 'nuxt_plugin_bootstrapvue_fab7b828' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_axios_40115a86 from 'nuxt_plugin_axios_40115a86' // Source: .\\axios.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -64,7 +64,16 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"nyt-reader","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"https:\u002F\u002Fcode.jquery.com\u002Fjquery-3.2.1.slim.min.js","integrity":"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr\u002FrE9\u002FQpg6aAZGJwFDMVNA\u002FGpGFF93hXpG5KkN","crossorigin":"anonymous"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fpopper.js@1.12.9\u002Fdist\u002Fumd\u002Fpopper.min.js","integrity":"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K\u002FScQsAP7hUibX39j7fakFPskvXusvfa0b4Q","crossorigin":"anonymous"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fbootstrap@4.0.0\u002Fdist\u002Fjs\u002Fbootstrap.min.js","integrity":"sha384-JZR6Spejh4U02d8jOt6vLEHfe\u002FJQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl","crossorigin":"anonymous"},{"src":"https:\u002F\u002Fcode.jquery.com\u002Fjquery-3.6.0.min.js","integrity":"sha256-\u002FxUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej\u002Fm4=","crossorigin":"anonymous"}],"style":[]},
+    head: function() {
+    return {
+      title: this.title,
+      meta: [
+      // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+      {
+        hid: '007?',
+        name: 'personal website for project',
+        content: 'Personal website made as project for UW PCE class.' }] };
+  },
 
     router,
     nuxt: {
@@ -178,16 +187,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_d6166d2c === 'function') {
-    await nuxt_plugin_plugin_d6166d2c(app.context, inject)
+  if (typeof nuxt_plugin_plugin_47b4c79a === 'function') {
+    await nuxt_plugin_plugin_47b4c79a(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_794d8dbc === 'function') {
-    await nuxt_plugin_bootstrapvue_794d8dbc(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_fab7b828 === 'function') {
+    await nuxt_plugin_bootstrapvue_fab7b828(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_0b60e6e6 === 'function') {
-    await nuxt_plugin_axios_0b60e6e6(app.context, inject)
+  if (typeof nuxt_plugin_axios_40115a86 === 'function') {
+    await nuxt_plugin_axios_40115a86(app.context, inject)
   }
 
   // Lock enablePreview in context

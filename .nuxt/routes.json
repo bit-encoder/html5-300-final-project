@@ -2,43 +2,43 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\html5-final-project\\\\nyt-reader\\\\pages\\\\about.vue",
+    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\final-project\\\\pages\\\\about.vue",
     "chunkName": "pages/about",
-    "_name": "_ffb1d130"
+    "_name": "_4a295144"
   },
   {
     "name": "accordion",
     "path": "/accordion",
-    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\html5-final-project\\\\nyt-reader\\\\pages\\\\accordion.vue",
+    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\final-project\\\\pages\\\\accordion.vue",
     "chunkName": "pages/accordion",
-    "_name": "_8d486bba"
+    "_name": "_3c949402"
   },
   {
     "name": "grid",
     "path": "/grid",
-    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\html5-final-project\\\\nyt-reader\\\\pages\\\\grid.vue",
+    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\final-project\\\\pages\\\\grid.vue",
     "chunkName": "pages/grid",
-    "_name": "_6170528a"
+    "_name": "_4968f15f"
   },
   {
     "name": "images",
     "path": "/images",
-    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\html5-final-project\\\\nyt-reader\\\\pages\\\\images.vue",
+    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\final-project\\\\pages\\\\images.vue",
     "chunkName": "pages/images",
-    "_name": "_45b93ca6"
+    "_name": "_53686351"
   },
   {
     "name": "reader",
     "path": "/reader",
-    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\html5-final-project\\\\nyt-reader\\\\pages\\\\reader.vue",
+    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\final-project\\\\pages\\\\reader.vue",
     "chunkName": "pages/reader",
-    "_name": "_32d41a78"
+    "_name": "_adcdc7c8"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\html5-final-project\\\\nyt-reader\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\Arthur\\\\Desktop\\\\final-project\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_c0421ba6"
+    "_name": "_69e12c09"
   }
 ]
